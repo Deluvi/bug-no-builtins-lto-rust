@@ -2,6 +2,8 @@
 
 This repository is to demonstrate a bug that occurs when you attempt to use link time optimization when having a dependency to a crate using `#![no_builtins]`.
 
+Related to the issue [rust-lang/rust#72140](https://github.com/rust-lang/rust/issues/72140)
+
 ### How do I run it?
 
 Having `cargo` and `git`:
